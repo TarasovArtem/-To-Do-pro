@@ -18,7 +18,7 @@ for (i = 0; i < close.length; i++) {
     }
 }
 
-var list = document.querySelector('.tascks');
+var list = document.querySelector('.tasks');
 list.addEventListener('click', function(ev) {
     if (ev.target.tagName === 'LI') {
         ev.target.classList.toggle('checked');
